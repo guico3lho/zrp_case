@@ -38,6 +38,7 @@ model = keras.models.load_model('../../assets/model')
 Change the path from where you stored the extracted zip of the repository.
 Here is an example:
 
+
 ```
 df_diff = pd.read_csv('/content/drive/MyDrive/Empresas/ZRP/Desafio Técnico/zrp_case-main/assets/df_diff.csv', index_col=0)
 ```
