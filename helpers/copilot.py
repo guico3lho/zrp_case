@@ -3,4 +3,6 @@
 # split a series of lists into multiple series
 # https://stackoverflow.com/questions/50670274/split-a-series-of-lists-into-multiple-series
 
-df_tempo_discriminado = df_raw.apply()
+# change types of columns in pandas dataframe
+df = df.ast
+
