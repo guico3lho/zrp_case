@@ -15,6 +15,10 @@ https://zrp.github.io/challenges/data-science/
 - The resultant dataframes of this file are already stored at `assets`
 - Therefore, you can skip the execution of `prepare_data.ipynb` and go directly to the Exploratory Analysis **(eda.ipynb)** and Prediction files **(methodology 1 and 2)**.
 
+## Project Overview
+- Diagram:
+![Diagram](https://github.com/guico3lho/zrp_case/blob/main/assets/diagram_zrp_case.png?raw=true)
+
 ## If you want to execute the project inside Google Colab, you need to:
 1. Download the zip of the repository and upload it to your Google Drive
 2. Extract it
