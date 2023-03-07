@@ -29,15 +29,17 @@ drive.mount('/content/drive')
 5.  In the cells that contains the code:
 
 ```
-df_diff = pd.read_csv('../assets/df_diff')
+df_diff = pd.read_csv('../assets/df_diff.csv', index_col=0)
 # or
-df_diff = pd.read_csv('assets/df_start_end')
+df_diff = pd.read_csv('assets/df_start_end.csv', index_col=0)
+# or
+model = keras.models.load_model('../../assets/model')
 ```
 Change the path from where you stored the extracted zip of the repository.
 Here is an example:
 
 ```
-df_diff = pd.read_csv('/content/drive/MyDrive/Colab Notebooks/zrp_case/assets/df_diff')
+df_diff = pd.read_csv('/content/drive/MyDrive/Empresas/ZRP/Desafio Técnico/zrp_case-main/assets/df_diff.csv', index_col=0)
 ```
 
 You are all set to execute the project in Google Colab!
