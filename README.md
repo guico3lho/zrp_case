@@ -1,4 +1,4 @@
-# Zrp_case
+# ZRP Case
 
 ## This repository contains the code of the exploration and prediction of the dataset described at:
 https://zrp.github.io/challenges/data-science/
@@ -8,21 +8,31 @@ https://zrp.github.io/challenges/data-science/
 - Anaconda
 - Python 3.9.10
 - Windows 10
-- All packages are listed in the requirements.txt file
-
-**Observations:**
-- `prepare_data.ipynb` is the file that contains the code to prepare the data for Exploratory Analysis and Prediction.
-- The resultant dataframes of this file are already stored at `assets`
-- Therefore, you can skip the execution of `prepare_data.ipynb` and go directly to the Exploratory Analysis **(eda.ipynb)** and Prediction files **(methodology 1 and 2)**.
+- All packages used are listed in the `requirements.txt` file
 
 ## Project Overview
 - Diagram:
 ![Diagram](https://github.com/guico3lho/zrp_case/blob/main/assets/diagram_zrp_case.png?raw=true)
+- `assets` folder contains the dataframes used in the project
+- `pipiline` folder contains the funnel of the project, described by the diagram above
+- `prepare_data.ipynb` is the file that contains the code to prepare the data for Exploratory Analysis and Prediction.
+- `eda.ipynb` contains the Exploratory Analysis of the dataset
+- `methodology 1` contains code used to evaluate traditional machine learning models for the prediction of the **inference**.
+- `methodology 2` contains code used to evaluate deep learning model (The recurrent neural network LSTM was used) for the prediction of the **inference**.
+
+
+
+**Observations:**
+- `prepare_data.ipynb` is the file that contains the code to prepare the data for Exploratory Analysis and Prediction.
+- The resultant dataframes of this file are already stored at `assets`
+- Therefore, you can skip the execution of `prepare_data.ipynb` and go directly to the Exploratory Analysis **(eda.ipynb)** and prediction files **(methodology 1 and 2)**.
+
+
 
 ## If you want to execute the project inside Google Colab, you need to:
 1. Download the zip of the repository and upload it to your Google Drive
 2. Extract it
-3. Open any .ipyb file and click on the button "Open in Colab" at the top of the file.
+3. Open any .ipynb file and click on the button "Open in Colab" at the top of the file.
 4. Put the following code to mount your google drive to the Google Colab environment:
 
 ```
