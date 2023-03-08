@@ -60,5 +60,5 @@ df_diff = pd.read_csv('/content/drive/MyDrive/Empresas/ZRP/Desafio Técnico/zrp
 You are all set to execute the project in Google Colab!
 
 ## Conclusion of the models used on project
-Comparing the best traditional model (KNN) with the RNN model (LSTM), the RNN model had a better accuracy: 75.85% againist 73% of KNN.
+Comparing the best traditional model (KNN) with the RNN model (LSTM), the RNN model had a better accuracy: 75.85% againist 73% of KNN. Besides that, the RNN Model hyperparams can be tuned and trained for more epochs to show better results.
 
