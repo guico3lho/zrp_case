@@ -14,7 +14,7 @@ https://zrp.github.io/challenges/data-science/
 - Diagram:
 ![Diagram](https://github.com/guico3lho/zrp_case/blob/main/assets/diagram_zrp_case.png?raw=true)
 - `assets` folder contains the dataframes used in the project
-- `pipiline` folder contains the funnel of the project, described by the diagram above
+- `pipeline` folder contains the funnel of the project, described by the diagram above
 - `prepare_data.ipynb` is the file that contains the code to prepare the data for Exploratory Analysis and Prediction.
 - `eda.ipynb` contains the Exploratory Analysis of the dataset
 - `methodology 1` contains code used to evaluate traditional machine learning models for the prediction of the **inference**.
